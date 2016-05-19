@@ -107,3 +107,15 @@ ul{
 	padding: 4px;
 	line-height: 2.2;
 }
+#wrap{
+      position:fixed;
+      right:100px; 
+      bottom:100px; 
+      background-image:url(../img/f139.png);
+      /*background-image必要的*/
+      background-size: 32px 32px;
+      width:32px; 
+      height:32px; 
+      /*设置倒影*/
+      -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent),color-stop(0.1, transparent), to(white));  
+    }
